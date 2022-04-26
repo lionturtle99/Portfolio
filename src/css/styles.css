@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+#rollerskate-logo {
+  max-width: 3em;
+  height: auto;
+  margin: 0 1em;
+}
