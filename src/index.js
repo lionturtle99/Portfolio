@@ -3,9 +3,8 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
-const progressBar = $(".progress-bar");
-
 function scrollProgress() {
+  const progressBar = $(".progress-bar");
   const scrollTop = document.documentElement.scrollTop;
   const clientHeight = document.documentElement.clientHeight;
   const scrollHeight = document.body.scrollHeight;
@@ -14,18 +13,4 @@ function scrollProgress() {
   progressBar.attr("aria-valuenow", scrollPercentage);
 }
 
-document.addEventListener("scroll", scrollProgress);
-
-
-
-// window.onscroll = function() {scrollFunction();};
-
-// function scrollFunction() {
-//   if(document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
-//     console.alert("if fired");
-//     document.getElementById("navbar").style.backgroundColor = "red";
-//   } else {
-//     console.alert("else fired");
-//     document.getElementById("navbar").style.backgroundColor = "blue";
-//   }
-// }
+$(document).on("scroll", scrollProgress);
