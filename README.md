@@ -1,42 +1,63 @@
-# _title_
+<p align="center">
+    <br>
+    <a href="https://github.com/LunsfordSpace">
+        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/87952201?s=400&u=5ac30267d7cfc6f11c4ecf57d21c6600941b451f&v=4">
+    </a>
+    <p align="center">
+    </p>
+    <p align="center">
+        <a href="https://github.com/lionturtle99">
+            <strong>LionTurtle99</strong>
+        </a>
+    </p>
+    <p align="center">
+        <a href="mailto:<liamthelastson@gmail.com>">
+            <img src="https://img.shields.io/badge/-Email%20Me-CA4245?loggithub&logoWidth=30">
+        </a>
+        ¨
+        <a href="https://linkedin.com/in/liameller">
+            <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=2867B2">
+        </a>
+    </p>    
+</p>
 
-#### By _**Liam Eller**_
+<p align="center">
+  <small>Initiated April, 2022</small>
+</p>
 
-#### _brief description_
+<h1 align="center">Portfolio</h1>
+
+<p align="center">A thorough look at my life and career</p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ## Technologies Used
 
-* _Javascript_
-* _html5_
-* _css_
-* _npm_
-* _webpack_
-* _jest_
-* _lint_
-* _babel_
-* _git_
+* _Visual Studio Code_
+* _Github pages_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _Jquery_
+* _NPM_
+* _Webpack_
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+## Known Issues
+* No none issues
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+## Acknowledgements
+- Thank you to my brother Lauden for encouraging me to pursue a career in tech and always believing in me. You're a great brother and a better friend. - Liam
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+
+### ⚖️ License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2022 Liam Eller. All Rights Reserved.
 
 
-## Description
-
-_more detailed description._
-
-## Setup/Installation Requirements
-
-1. Download or clone github repository to local machine in desired directory.
-2. If downloaded, extract .zip contents to desired directory
-3. Navigate to and open directory with Visual Studio Code
-4. Open terminal and install required packages by typing "npm install"
-5. Test code in terminal by typing "npm test"
-6. Build the display environment in the terminal by typing "npm run build"
-7. Run the environment in your default web browser by typing "npm run start" in the terminal
-
-## Known Bugs
-
-_None_
-
-## License
-
-_[MIT](https://opensource.org/licenses/MIT)_
-
-Copyright (c) _date:_ _by: Liam Eller_
+<footer align="center"><a href="#">Return to Top</a></footer>
