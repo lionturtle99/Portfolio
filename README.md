@@ -27,7 +27,9 @@
 
 <h1 align="center">Portfolio</h1>
 
-<p align="center">A thorough look at my life and career</p>
+<p align="center">A thorough look at my life and career.</p>
+
+<p align="center"><a href="https://lionturtle99.github.io/Portfolio/">Visit live site</a></p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
