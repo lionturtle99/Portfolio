@@ -11,6 +11,14 @@ function scrollProgress() {
 
   $(".progress-bar").css('--width', Math.round(scrollPercentage));
   $(".progress-bar").attr("aria-valuenow", scrollPercentage);
+
+  if(document.body.scrollTop > 880 || scrollTop > 880) {
+    $("#navbar").addClass("navbar-light");
+    $("#navbar").removeClass("navbar-dark");
+  } else {
+    $("#navbar").removeClass("navbar-light");
+    $("#navbar").addClass("navbar-dark");
+  }
 }
 
 $(document).on("scroll", scrollProgress);
