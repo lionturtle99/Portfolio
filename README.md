@@ -53,7 +53,7 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ## Acknowledgements
-- Thank you to my brother Lauden for encouraging me to pursue a career in tech and always believing in me. You're a great brother and a better friend. - Liam
+- Thank you to my brother Lauden for encouraging me to pursue a career in tech and always believing in me. You're a great brother and a better friend.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
@@ -62,4 +62,4 @@
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2022 Liam Eller. All Rights Reserved.
 
 
-<footer align="center"><a href="#">Return to Top</a></footer>
+<p align="center"><a href="#">Return to Top</a></p>
