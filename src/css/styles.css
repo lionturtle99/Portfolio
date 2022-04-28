@@ -4,10 +4,6 @@
   font-family:sans-serif;
 }
 
-section {
-  margin-top: 1.5em;
-}
-
 /* navbar */
 .navbar-nav {
   font-size: 18px;
@@ -25,13 +21,13 @@ section {
 }
 
 /* home */
-#home-bg-img {
+.home-bg-img {
   background-image: url("../assets/images/medium (1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-#home {
+.home {
   position: relative;
   top: 40%;
   transform: translateY(-40%);

@@ -7,48 +7,50 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <!-- background image -->
-    <div id="home-bg-img">
-      <!-- navbar -->
-      <div id="navbar" class="sticky-top">
-        <nav class="navbar navbar-expand-lg py-0">
-          <div class="container-fluid">
-            <a class="navbar-brand m-0 p-0 text-light" href="#home">
-              <img class="flaot-start mt-1" src="./assets/images/rollerskate.png" alt="rollerskate">
-              <div class="float-end text-center">
-                <p class=" mt-2 mb-0">Liam Eller</p>
-                <p class="fs-6">Software Engineer</p>
+
+
+          <!-- navbar -->
+          <div class="fixed-top">
+            <nav id="navbar" class="navbar navbar-expand-lg bg-transparent navbar-dark py-0">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                  <img class="flaot-start mt-1" src="./assets/images/rollerskate.png" alt="rollerskate">
+                  <div class="float-end text-center">
+                    <p class="mt-2 mb-0">Liam Eller</p>
+                    <p class="fs-6">Software Engineer</p>
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0 ">
+                    <li class="mx-2 nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0 ">
-                <li class="mx-2 nav-item">
-                  <a class="nav-link text-light" href="#home">Home</a>
-                </li>
-                <li class="mx-2 nav-item">
-                  <a class="nav-link text-light" href="#about">About</a>
-                </li>
-                <li class="mx-2 nav-item">
-                  <a class="nav-link text-light" href="#projects">Projects</a>
-                </li>
-                <li class="mx-2 nav-item">
-                  <a class="nav-link text-light" href="#contact-me">Contact</a>
-                </li>
-              </ul>
+            </nav>
+            <div class="progress bg-transparent  my-0">
+              <div class="progress-bar bg-danger opacity-50" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-        </nav>
-        <div class="progress bg-transparent">
-          <div class="progress-bar bg-danger opacity-25" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-      </div>
-      <!-- navbar -->
+          <!-- navbar -->
 
+    <!-- background image -->
+    <div class="home-bg-img">
       <!-- home section -->
-      <section id="home">
+      <section id="home" class="home">
         <div class="container">
           <div class="row">
             <div class="col-md-1">
@@ -69,7 +71,7 @@
     <!-- background image -->
 
     <!-- About Section -->
-    <section id="about">
+    <section class="mt-3" id="about">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -98,7 +100,7 @@
     <!-- About Section -->
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section class="mt-3" id="projects">
       <div class="container my-5 py-5">
         <div class="row mb-5">
           <div class="col-12">
@@ -161,7 +163,7 @@
     <!-- Projects Section -->
 
     <!-- Contact me Section -->
-    <section id="contact-me">
+    <section class="mt-3" id="contact">
       <div class="container my-5 bg-promary">
         <div class="row mb-5">
           <div class="col-12">
@@ -195,7 +197,7 @@
     <!-- Contact me Section -->
 
     <!-- Footer Section -->
-    <section>
+    <section class="mt-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
